@@ -22,6 +22,7 @@ For this IoT project there are a few questions that need to be answered:
 * Did my plan change at all over time?
 * What did I do when I had to change the plan and how did the program then work?
 <br></br>
+
 Next he told us about how everybody can choose there own IoT-project by thinking of a objective you care about.
 Because if you are genuinly interested in it is going to work the best.
 We had to choose someting small and easy to implement because it doesn't matter what you do but that you know you can do it.
@@ -35,6 +36,7 @@ To submit my IoT project the next points need to be included
 * Outline next steps and future directions
 * Add/Upload code (with comments) and ant dupporting documentation and files.
 <br></br>
+
 After all that info he started talking about Data Science and why.
 All that info can be found in the source.
 <br></br>
