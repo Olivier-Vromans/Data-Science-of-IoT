@@ -53,7 +53,7 @@ After I made the repositorie I added a README file where I could read my activit
 ...
 
 <br></br>
-Source: 
+Source: https://github.com/robvdw/CMIDAT01K-DATA-SCIENCE-for-IOT/blob/master/Lessons/xxDATA_SCIENCE_for_IoT_LESSON02_OP2_NOV_2020_FIN.pdf
 
 # Before Lesson 3
 Before Lesson 3 I needed to make a led light up by using the Raspberry Pi. 
@@ -66,4 +66,4 @@ Source: https://www.youtube.com/watch?v=BWYy3qZ315U
 ...
 
 <br></br>
-Source: 
+Source: https://github.com/robvdw/CMIDAT01K-DATA-SCIENCE-for-IOT/blob/master/Lessons/xxDATA_SCIENCE_for_IoT_LESSON03_OP2_NOV_2020_FINsec.pdf
