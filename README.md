@@ -43,7 +43,7 @@ Source: https://github.com/robvdw/CMIDAT01K-DATA-SCIENCE-for-IOT/blob/master/Les
 We needed to purchase a Raspberry Pi and make a Github repositorie. 
 I had a spare Raspberry Pi that I could use for this lessons so I was in luck. 
 For the Github part I made one recently so that was not that hard for me. 
-After I made the repositorie I added a lessons file where I could read my activities for these lessons in.
+After I made the repositorie I added a README file where I could read my activities for these lessons in.
 <br>
 # Lesson 2
 ...
