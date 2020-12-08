@@ -28,6 +28,7 @@ Because if you are genuinly interested in it is going to work the best.
 We had to choose someting small and easy to implement because it doesn't matter what you do but that you know you can do it.
 this project is all about solving a problem that illustrate your key IoT idea/concept.
 <br></br>
+
 To submit my IoT project the next points need to be included
 * A description of the concept and goals (include video and/or diagrams as needed)
 * A desciption of relvant prior projcets, approaches or methods you researched and that inpired the project. Be thotough and show what informed the prject.
