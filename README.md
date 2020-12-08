@@ -5,11 +5,12 @@ Data Science of IoT
 In the First Lesson of IoT I learned about Data Science.
 Data Science for IoT is about...:
 * This is about experimenting, prototyping & Iterating.
-* Concepting, Testing and Debugging
-* Reusing and Remixing
-* Abstracting and Documentation
-* Keeping a (GitHub) Journal + code commenting
-<br>
+* Concepting, Testing and Debugging.
+* Reusing and Remixing.
+* Abstracting and Documentation.
+* Keeping a (GitHub) Journal + code commenting.
+
+<br></br>
 For this IoT project there are a few questions that need to be answered:
 * Show what you are working on
 * What is it about
@@ -20,12 +21,12 @@ For this IoT project there are a few questions that need to be answered:
 * Which IoT Platform did you choose and why?
 * Did my plan change at all over time?
 * What did I do when I had to change the plan and how did the program then work?
-<br>
+<br></br>
 Next he told us about how everybody can choose there own IoT-project by thinking of a objective you care about.
 Because if you are genuinly interested in it is going to work the best.
 We had to choose someting small and easy to implement because it doesn't matter what you do but that you know you can do it.
 this project is all about solving a problem that illustrate your key IoT idea/concept.
-<br>
+<br></br>
 To submit my IoT project the next points need to be included
 * A description of the concept and goals (include video and/or diagrams as needed)
 * A desciption of relvant prior projcets, approaches or methods you researched and that inpired the project. Be thotough and show what informed the prject.
@@ -33,10 +34,10 @@ To submit my IoT project the next points need to be included
 * The outcome itself and how it works. Include supporting images, a video of the working prototype, circuit diagrams, etc.)
 * Outline next steps and future directions
 * Add/Upload code (with comments) and ant dupporting documentation and files.
-<br>
+<br></br>
 After all that info he started talking about Data Science and why.
 All that info can be found in the source.
-<br>
+<br></br>
 Source: https://github.com/robvdw/CMIDAT01K-DATA-SCIENCE-for-IOT/blob/master/Lessons/DATA_SCIENCE_for_IoT_LESSON01_OP2_2020_FIN.pdf
 
 # Before Lesson 2
@@ -48,7 +49,7 @@ After I made the repositorie I added a README file where I could read my activit
 # Lesson 2
 ...
 
-<br>
+<br></br>
 Source: 
 
 # Before Lesson 3
@@ -56,10 +57,10 @@ Before Lesson 3 I needed to make a led light up by using the Raspberry Pi.
 I used for this 1 led, 1 ohm resistance, 2 cables, 1 breadboard en 1 Raspberry Pi.
 To make the led light up...
 
-<br>
+<br></br>
 Source: https://www.youtube.com/watch?v=BWYy3qZ315U
 # Lesson 3
 ...
 
-<br>
+<br></br>
 Source: 
