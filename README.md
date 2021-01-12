@@ -11,10 +11,10 @@ Ik kan hierdoor s’ochtends nadat ik uit bed kom tijdens het aankleden en mijn 
 
 # Benodigdheden
 Ik heb al wat onderzoek gedaan in de benodigdheden dit ik hiervoor nodig ga hebben om dit te realiseren:
-•	Een frame
-•	Een dubbelzijdig spiegel van plexiglas
-•	Raspberry Pi
-•	Een monitor
-•	HDMI Kabel
+* Een frame
+*	Een dubbelzijdig spiegel van plexiglas
+*	Raspberry Pi
+*	Een monitor
+*	HDMI Kabel
 
 Voor dit project heb ik al een frame, monitor en raspberry Pi tot mijn beschikking. Het Frame heeft alleen nog 1 laagje verf nodig.
