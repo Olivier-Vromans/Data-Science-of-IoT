@@ -23,3 +23,22 @@ Ik heb eerst een meting in mijn kamer gemaakt waar ik de Magic Mirror wil gaan p
 
 ![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/IMG_8131.jpg?raw=true)
 ![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/IMG_8132.jpg?raw=true)
+
+
+# De Code
+Om te beginnen heb ik het micro usb in mijn computer gestopt en de software voor de Raspberry Pi erop gezet. Ik heb er ook een lege ssh bestand zonder extensie in de boot map gezet zodat het mogelijk is om meteen ssh te gebruiken. Vervolgens heb ik de Rasberry aangesloten op het netwerk met een internet kabel. Nadat de Raspberry was aangesloten op het netwerk heb ik doormiddel van de terminal gebruikt gemaakt van ssh pi@raspberrypi.local om een ssh verbinding te maken met de Raspberry. Ik werdt gevraagt om een wachtwoord en gaf het standaard wachtwoord.
+<br><br>
+De eerste stap die ik heb genomen is de wifi instellingen aan te passen door:
+`sudo nano /etc/dhcpcd.conf` uit te voeren. hierin heb ik een static ip-adress gezet en de router opgegeven. Om dit door te voeren moest ik hem restarten met `sudo reboot now`. Nadat die weer was opgestart was het eerst tijd om alles up te date en te upgraden. Dit deed ik door `sudo apt update && apt upgrade` uit te voeren.
+<br><br>
+Nadat alles up to date was heb ik een virtuele desktop opgezet zodat ik niet al tijd een beeldscherm aan hoef te sluiten om mijn progressie te zien. Dit deed ik via VNC Viewer, dit ging heel makelijk omdat dit vanuit Raspberry Pi aanbevolen wordt. Om het aan te zetten ga je naar de instellingen van de Raspberry met de commando: `sudo raspi-config`. Vervolgens ga je naar **interface opties** en vervolgens naar **VNC** en klik op **Yes**. Dat is alles aan de kant van de Rasberry. Op mijn computer had ik de applicatie geinstallerd en typte ik het ip addres in. hier werd ik gevraagt voor een gebruikers naam en wachtwoord. Nadat ik dat hat ingevult klikte ik op vebinden en ben ik verbonden met de desktop.
+<br><br>
+Nu alles klaar staat was is het tijd om de Magic Mirror 2 te installeren van de [website](https://magicmirror.builders/). Hier heb ik de stappen van de documentatie gevolgt om alles te installeren:
+* Eerste moetst ik de laatse node.js ophalen `curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
+* Vervolgens installeerde ik het door `sudo apt install -y nodejs` uit te voeren.
+* Nadat node.js erop staat kan ik de bestanden van de Magic Mirror copieren door `git clone https://github.com/MichMich/MagicMirror` te typen.
+* Nu moeten we in de map zijn door `cd MagicMirror/` te typen
+* het installeren van de applicatie deed ik door `npm install`
+* het laatste voordat we het konden starten was om de config file te kopieren door deze commando `cp config/config.js.sample config/config.js`
+* Omdat ik het via de VNC deed kan ik `npm run start` doen om de Magic Mirror te zien.
+
