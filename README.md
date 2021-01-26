@@ -18,3 +18,10 @@ Ik heb al wat onderzoek gedaan in de benodigdheden dit ik hiervoor nodig ga hebb
 *	HDMI Kabel
 
 Voor dit project heb ik al een frame, monitor en raspberry Pi tot mijn beschikking. Het Frame heeft alleen nog 1 laagje verf nodig.
+
+
+# Het Frame
+Ik heb eerst een meting in mijn kamer gemaakt waar ik de Magic Mirror wil gaan plaatsen om te kijken hoe groot ik hem kan maken. Daarna ben ik naar de bouwmarkt gegaan om verf en hout te halen wat ik kan uitsnijden. Vervolgen heb ik de stukken aan elkaar gemaakt om de voorkant van het frame te maken. Daarna heb ik de achterkant van het frame uitgesneden. Daarna heb ik eerst een grijze grondverf gebruikt zodat het normale verf er beter uitkomt. 
+
+![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/IMG_8131.jpg?raw=true)
+![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/IMG_8132.jpg?raw=true)
