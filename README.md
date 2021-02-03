@@ -15,7 +15,13 @@ Ik heb al wat onderzoek gedaan in de benodigdheden dit ik hiervoor nodig ga hebb
 *	Een dubbelzijdig spiegel van plexiglas
 *	Raspberry Pi
 *	Een monitor
-*	HDMI Kabel
+*	Mini HDMI naar HDMI Kabel
+optioneel:
+* ESP8266
+* DHT22
+* Breadboard
+* 10 ohm weerstand
+* Jumper kabels voor Breadboard
 
 
 # Het Frame
@@ -43,6 +49,6 @@ Nu alles klaar staat was is het tijd om de Magic Mirror 2 te installeren van de 
 * Omdat ik het via de VNC deed kan ik `npm run start` doen om de Magic Mirror te starten.
 
 # De modules
-Om de Magic Mirror te personaliseren kan je verschillende modules toevoegen via de [website](https://magicmirror.builders/) van Magic Mirror of via andere websites. 
+Om de Magic Mirror te personaliseren kan je verschillende modules toevoegen via de [website](https://magicmirror.builders/) van Magic Mirror of via andere websites. Hierin vertellen de makers hoe je het moet instellen en welke configuratie nodig zijn maar ook welke je kan aanpassen.
 <br><br>
 Ik heb gebruikt gemaakt van de Spotify module van [skuethe](https://github.com/skuethe/MMM-Spotify), de metro tijden doormiddel van de module van [73cirdan](https://github.com/73cirdan/MMM-bustimes), en de standaard weervoorspelling, nieuwsfeed en de kalender van de Magic Mirror zelf. De kalendar heb ik aangesloten aan mijn kalendar van Google. Tenslotte heb ik een sensor gemaakt van een ESP8266 board met een DHT22 sensor erop. Deze sensor met de temperatuur en de luchtvochtigheid in een kamer. Ik heb ervoor gekozen om er 2 te maken waarvan één in mijn slaapkamer staat en één in de woonkamer. Bijde sensoren sturen hun data naar mijn channel op [Thingspeak](https://thingspeak.com/channels/1277680). De laatste metingen worden vervolgens met de rest module van [Tuxdiver](https://github.com/Tuxdiver/MMM-Rest) opgehaald zodat ze op de spiegel afgelezen kunnen worden.
