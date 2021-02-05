@@ -38,6 +38,7 @@ var config = {
 	// true, force serveronly mode, because you want to.. no UI on this device
 
 	modules: [
+	// Modules die ik heb gebruikt in mijn Magic Mirror
 		{
 			module: "alert",
 		},
@@ -53,6 +54,7 @@ var config = {
 		// 	module: "compliments",
 		// 	position: "lower_third"
 		// },
+		// Mijn Kalender
 		{
 			module: "calendar",
 			position: "top_left",	// This can be any of the regions. Best results in left or right regions.
@@ -68,6 +70,7 @@ var config = {
 				// See 'Configuration options' for more information.
 			}
 		},
+		// Huidige weer over mijn omgeving
 		{
 			module: "currentweather",
 			position: "top_right",
@@ -77,6 +80,7 @@ var config = {
 				appid: "1a6b00b2fdc263653773dfc8debdeab1"
 			}
 		},
+		// Weers voorspelling van mijn omgeving
 		{
 			module: "weatherforecast",
 			position: "top_right",
@@ -87,6 +91,7 @@ var config = {
 				appid: "1a6b00b2fdc263653773dfc8debdeab1"
 			}
 		},
+		// laatste nieuws
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
@@ -107,6 +112,7 @@ var config = {
 				broadcastNewsUpdates: true
 			},
 		},
+		// Metro Tijden van de dichts bijzijnde station in bijde richtingen
 		{
         		module: "bustimes",
         		position: "bottom_right",
@@ -121,6 +127,7 @@ var config = {
             			departs: 3
         		}
     		},
+		// Mijn Spotify met het huide nummer wat ik aan het afspelen ben
 		{
   			module: "MMM-Spotify",
   			position: "bottom_left",
@@ -141,6 +148,7 @@ var config = {
     				}
 			}
 		},
+		// Thingspeak gegevens ophalen om weer te geven in graden en procenten
 		{
 			module: 'MMM-Rest',
 			position: 'top_right',
