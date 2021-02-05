@@ -1,19 +1,22 @@
+// toevoegen van  de libaries
 #include <DHT.h>
 #include <ESP8266WiFi.h>
  
-#define DHTPIN 5          //DHT11 is connected to GPIO Pin 2
+#define DHTPIN 5          //DHT22 is aangesloten op GPIO Pin 2
 
-String apiKey = "xxxxxxxxxxxxxxxx";     //  Enter your Write API key from ThingSpeak
-const char* ssid =  "xxxx";     // Enter your WiFi Network's SSID
-const char* pass =  "xxxx"; // Enter your WiFi Network's Password
-const char* server = "api.thingspeak.com";
+String apiKey = "xxxxxxxxxxxxxxxx";     // De Write API key van ThingSpeak
+const char* ssid =  "xxxx";     // De WiFi Netwerk's SSID
+const char* pass =  "xxxx"; // De WiFi Netwerk's Password
+const char* server = "api.thingspeak.com"; // verbinden met de ThingSpeak API server
  
-float humi;
-float temp;
+
+float humi; // Vochtigheid bepalen
+float temp; // Tempratuur bepalen
  
 DHT dht(DHTPIN, DHT22);
 WiFiClient client;
- 
+
+// Verbinden met het Wifi Netwerk
 void setup() 
 {
        Serial.begin(115200);
@@ -35,18 +38,16 @@ void setup()
       Serial.println("***WiFi connected***");
  
 }
- 
+
+// Gegevens bepalen van de DHT22 en versturen naar Thingspeak
 void loop() 
 {
-  
       humi = dht.readHumidity();
       temp = dht.readTemperature();
  
       if (client.connect(server,80))   //   "184.106.153.149" or api.thingspeak.com
       {  
        String sendData = apiKey+"&field1="+String(temp)+"&field2="+String(humi)+"\r\n\r\n"; 
-       
-       //Serial.println(sendData);
 
        client.print("POST /update HTTP/1.1\n");
        client.print("Host: api.thingspeak.com\n");
