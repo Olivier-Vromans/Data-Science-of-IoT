@@ -55,5 +55,5 @@ Ik heb gebruikt gemaakt van de Spotify module van [skuethe](https://github.com/s
 
 # De Temperatuurmeter
 Om een de tempratuur te meten in mijn huis moest ik zelf een temperatuurmeter maken. Ik had door mijn docent een post gezien waaruit ik kon lezen dat die persoon een ESP8266 en een DHT22 gebruikte om het te doen. Hierdoor dacht ik, Dat kan ik vast ook. Erst moest ik de code maken voor de ESP8266 na wat googlen lukte dit. De code die ik heb gebruikt staat in het bestand Temparatuur_Sensor.ino. Hierin zorg ik dat ik eerst verbinding maak met het netwerk. Vervolgens zorg ik dat hij weet dat er sensor is verbonden. Dan moest ik zorgen dat hij de gegvens van temperatuur en luchtvochtigheid uitleest. Nadat dat was gelukt was het tijd om verbinding te maken met ThingSpeak. Deze gegevens worden om de zoveel seconden verstuurd. Ik heb het zo gedaan dat bijde sensoren naar het zelfde kanaal verstuurd worden maar naar een andere veld. Hierdoor kunnen bijde sensoren aan een kanaal verbinden. 
-![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/IMG_8133.jpg?raw=true)
-![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/IMG_8134.jpg?raw=true)
+![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/IMG_8143.jpg?raw=true)
+![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/IMG_8144.jpg?raw=true)
