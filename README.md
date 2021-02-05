@@ -7,7 +7,7 @@ Ik bedacht me dat ik s’ochtends altijd veel tijd verlies met informatie op te 
 
 # De oplossing
 Om het probleem op te lossen en zelf s’ochtends tijd kan besparen waardoor minder hoef te haasten om op tijd weg te gaan. ik bedacht de oplossing om een Smart Mirror te bouwen. 
-Ik kan hierdoor s’ochtends nadat ik uit bed kom tijdens het aankleden en mijn haren voor de spiegel doe kan zien hoe ik moet reizen.  Hiermee kan ik meteen zien hoelaat ik moet vertrekken en wat voor weer het wordt zodat ik s’ochtends niet te warm/koud kleed voor de dag. 
+Ik kan hierdoor s’ochtends nadat ik uit bed kom tijdens het aankleden en mijn haren voor de spiegel doe kan zien hoe ik moet reizen.  Hiermee kan ik meteen zien hoelaat ik moet vertrekken en wat voor weer het wordt zodat ik s’ochtends niet te warm/koud kleed voor de dag. Ook kan ik zien hoe warm het is in huis door de 2e temperatuurmeters.
 
 # Benodigdheden
 Ik heb al wat onderzoek gedaan in de benodigdheden dit ik hiervoor nodig ga hebben om dit te realiseren:
@@ -52,3 +52,8 @@ Nu alles klaar staat was is het tijd om de Magic Mirror 2 te installeren van de 
 Om de Magic Mirror te personaliseren kan je verschillende modules toevoegen via de [website](https://magicmirror.builders/) van Magic Mirror of via andere websites. Hierin vertellen de makers hoe je het moet instellen en welke configuratie nodig zijn maar ook welke je kan aanpassen. Mijn instellingen staan in de config.js in deze repositorie.
 <br><br>
 Ik heb gebruikt gemaakt van de Spotify module van [skuethe](https://github.com/skuethe/MMM-Spotify), de metro tijden doormiddel van de module van [73cirdan](https://github.com/73cirdan/MMM-bustimes), en de standaard weervoorspelling, nieuwsfeed en de kalender van de Magic Mirror zelf. De kalendar heb ik aangesloten aan mijn kalendar van Google. Tenslotte heb ik een sensor gemaakt van een ESP8266 board met een DHT22 sensor erop. Deze sensor met de temperatuur en de luchtvochtigheid in een kamer. Ik heb ervoor gekozen om er 2 te maken waarvan één in mijn slaapkamer staat en één in de woonkamer. Bijde sensoren sturen hun data naar mijn channel op [Thingspeak](https://thingspeak.com/channels/1277680). De laatste metingen worden vervolgens met de rest module van [Tuxdiver](https://github.com/Tuxdiver/MMM-Rest) opgehaald zodat ze op de spiegel afgelezen kunnen worden.
+
+# De Temperatuurmeter
+Om een de tempratuur te meten in mijn huis moest ik zelf een temperatuurmeter maken. Ik had door mijn docent een post gezien waaruit ik kon lezen dat die persoon een ESP8266 en een DHT22 gebruikte om het te doen. Hierdoor dacht ik, Dat kan ik vast ook. Erst moest ik de code maken voor de ESP8266 na wat googlen lukte dit. De code die ik heb gebruikt staat in het bestand Temparatuur_Sensor.ino. Hierin zorg ik dat ik eerst verbinding maak met het netwerk. Vervolgens zorg ik dat hij weet dat er sensor is verbonden. Dan moest ik zorgen dat hij de gegvens van temperatuur en luchtvochtigheid uitleest. Nadat dat was gelukt was het tijd om verbinding te maken met ThingSpeak. Deze gegevens worden om de zoveel seconden verstuurd. Ik heb het zo gedaan dat bijde sensoren naar het zelfde kanaal verstuurd worden maar naar een andere veld. Hierdoor kunnen bijde sensoren aan een kanaal verbinden. 
+![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/IMG_8133.jpg?raw=true)
+![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/IMG_8134.jpg?raw=true)
