@@ -61,4 +61,4 @@ Om een de tempratuur te meten in mijn huis moest ik zelf een temperatuurmeter ma
 # Het Resultaat
 De Magic Mirror is nog niet af. Ik mis voor een stuk frame een laag verf. De spiegel is ook nog niet binnen waardoor ik hem nog niet kan ophangen. Daarin tegen werkt alles wel. Ik kan zowel op thingspeak een heel grafiek zien van de luchtvochtigheid en temperatuur van bijde sensoren als dat ik de laatste meting om de Magic Mirror kan zien. De andere modules werken ook zoals ik het bedacht had. Zo kan ik precies zien welke agenda punten er zijn, wat het weer voor vandaag en de komende dagen zijn, als dat ik kan zien hoelaat de metro komt zodat ik optijd weg kan gaan.
 <br>
-[![Watch the video](https://j.gifs.com/MwRRJR.gif)](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/IMG_8167.mp4)
+[![Watch the video](https://j.gifs.com/MwRRJR.gif)](https://youtu.be/JIoWTnA54Ec)
