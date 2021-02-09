@@ -27,8 +27,8 @@ optioneel:
 # Het Frame
 Ik heb eerst een meting in mijn kamer gemaakt waar ik de Magic Mirror wil gaan plaatsen om te kijken hoe groot ik hem kan maken. Daarna ben ik naar de bouwmarkt gegaan om verf en hout te halen wat ik kan uitsnijden. Vervolgen heb ik de stukken aan elkaar gemaakt om de voorkant van het frame te maken. Daarna heb ik de achterkant van het frame uitgesneden. Daarna heb ik eerst een grijze grondverf gebruikt zodat het normale verf er beter uitkomt. Het Frame aan de achterkant heeft alleen nog 1 laagje verf nodig.
 
-![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/media/IMG_8131.jpg?raw=true)
-![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/media/IMG_8132.jpg?raw=true)
+![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/Media/IMG_8131.jpg?raw=true)
+![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/Media/IMG_8132.jpg?raw=true)
 
 
 # De Code
@@ -55,8 +55,8 @@ Ik heb gebruikt gemaakt van de Spotify module van [skuethe](https://github.com/s
 
 # De Temperatuurmeter
 Om een de tempratuur te meten in mijn huis moest ik zelf een temperatuurmeter maken. Ik had door mijn docent een post gezien waaruit ik kon lezen dat die persoon een ESP8266 en een DHT22 gebruikte om het te doen. Hierdoor dacht ik, Dat kan ik vast ook. Erst moest ik de code maken voor de ESP8266 na wat googlen lukte dit. De code die ik heb gebruikt staat in het bestand Temparatuur_Sensor.ino. Hierin zorg ik dat ik eerst verbinding maak met het netwerk. Vervolgens zorg ik dat hij weet dat er sensor is verbonden. Dan moest ik zorgen dat hij de gegvens van temperatuur en luchtvochtigheid uitleest. Nadat dat was gelukt was het tijd om verbinding te maken met ThingSpeak. Deze gegevens worden om de zoveel seconden verstuurd. Ik heb het zo gedaan dat bijde sensoren naar het zelfde kanaal verstuurd worden maar naar een andere veld. Hierdoor kunnen bijde sensoren aan een kanaal verbinden. 
-![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/media/IMG_8143.jpg?raw=true)
-![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/media/IMG_8144.jpg?raw=true)
+![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/Media/IMG_8143.jpg?raw=true)
+![alt text](https://github.com/Olivier-Vromans/Data-Science-of-IoT/blob/main/Media/IMG_8144.jpg?raw=true)
 
 # Het Resultaat
 De Magic Mirror is nog niet af. Ik mis voor een stuk frame een laag verf. De spiegel is ook nog niet binnen waardoor ik hem nog niet kan ophangen. Daarin tegen werkt alles wel. Ik kan zowel op [Thingspeak](https://thingspeak.com/channels/1277680) een heel grafiek zien van de luchtvochtigheid en temperatuur van bijde sensoren als dat ik de laatste meting om de Magic Mirror kan zien. De andere modules werken ook zoals ik het bedacht had. Zo kan ik precies zien welke agenda punten er zijn, wat het weer voor vandaag en de komende dagen zijn, als dat ik kan zien hoelaat de metro komt zodat ik optijd weg kan gaan. 
